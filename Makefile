@@ -21,6 +21,10 @@ MLX_DIR		=	./minilibx_mac
 SRC			=	main.c \
 				init_fc.c \
 				draw_fc.c \
+				julia.c \
+				burningship.c \
+				handle_keys.c \
+				handle_mouse.c \
 
 CC 			=	gcc
 FLAGS		=	-Wall -Werror -Wextra -Ofast
